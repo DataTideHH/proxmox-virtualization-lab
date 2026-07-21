@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1",
+  "sample_type": "synthetic-public-safe",
+  "collected_at_utc": "2026-07-21T18:00:00Z",
+  "nodes": [
+    {
+      "node_key": "pve-node-01",
+      "node_status": "online",
+      "cpu_threads": 8,
+      "memory_total_mb": 32768,
+      "storage_total_gb": 1000
+    }
+  ],
+  "guests": [
+    {
+      "guest_key": "vm-data-01",
+      "node_key": "pve-node-01",
+      "guest_type": "qemu",
+      "guest_status": "running",
+      "purpose_category": "database-lab",
+      "owner_role": "lab-owner",
+      "cpu_allocated": 2,
+      "memory_allocated_mb": 4096,
+      "backup_policy_key": "daily-lab"
+    },
+    {
+      "guest_key": "lxc-tools-01",
+      "node_key": "pve-node-01",
+      "guest_type": "lxc",
+      "guest_status": "stopped",
+      "purpose_category": "automation-tools",
+      "owner_role": "lab-owner",
+      "cpu_allocated": 1,
+      "memory_allocated_mb": 1024,
+      "backup_policy_key": "weekly-lab"
+    }
+  ]
+}

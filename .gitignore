@@ -1,0 +1,39 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE and operating system
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Private infrastructure exports
+private/
+raw/
+exports/private/
+*.ticket
+*.token
+*.key
+*.pem
+
+# Virtualization artifacts
+*.iso
+*.img
+*.qcow2
+*.raw
+*.vmdk
+*.vma
+*.vma.zst
+*.tar.zst
+*.backup
+
+# Generated validation output
+reports/
