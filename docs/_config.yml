@@ -1,0 +1,21 @@
+theme: jekyll-theme-cayman
+title: Proxmox Virtualization Lab
+description: Public-safe virtualization learning lab for architecture, networking, storage, backup, access control and future operational data integration.
+show_downloads: false
+repository: DataTideHH/proxmox-virtualization-lab
+url: https://datatidehh.github.io
+baseurl: /proxmox-virtualization-lab
+lang: en
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
