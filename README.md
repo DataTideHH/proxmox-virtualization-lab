@@ -2,6 +2,8 @@
 
 Planned virtualization learning lab documenting architecture decisions, hardware selection, network integration, storage, backup, access control, validation and future API-based inventory.
 
+Project page: https://datatidehh.github.io/proxmox-virtualization-lab/
+
 ## Current status
 
 **Planning and pre-hardware preparation.**
@@ -138,8 +140,8 @@ Use synthetic examples and placeholders in the public repository.
 
 ## Related repositories
 
-- `DataTideHH/cisco-switching-lab`
-- `DataTideHH/network-operations-data-lab`
+- [DataTideHH/cisco-switching-lab](https://github.com/DataTideHH/cisco-switching-lab)
+- [DataTideHH/network-operations-data-lab](https://github.com/DataTideHH/network-operations-data-lab)
 
 ## Portfolio standard
 
