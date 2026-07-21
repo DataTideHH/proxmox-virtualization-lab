@@ -103,7 +103,7 @@ Cluster, Ceph, high availability and complex software-defined networking are not
 | [Validation checklist](06-validation-checklist.md) | Planned acceptance checks for each implementation stage |
 | [Implementation log](07-implementation-log.md) | Public-safe record for future verified work |
 | [Lessons learned](99-lessons-learned.md) | Findings and revisions as the lab develops |
-| [Lab topology](../diagrams/lab-topology.md) | Sanitized current and planned cross-layer architecture |
+| [Lab topology](https://github.com/DataTideHH/proxmox-virtualization-lab/blob/main/diagrams/lab-topology.md) | Sanitized current and planned cross-layer architecture |
 
 ---
 
