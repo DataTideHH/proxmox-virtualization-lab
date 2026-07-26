@@ -11,9 +11,11 @@ No dedicated x86 host has been selected.
 - 32 GB RAM preferred
 - reliable Ethernet interface
 - SSD storage
-- local console access
+- local physical console access or an independently validated out-of-band console
 - firmware settings that permit virtualization
 - hardware that can remain separate from the main iMac and school devices
+
+A recoverable console path is required for the first host. Network, bridge, VLAN or management-address changes must not depend on the same interface being changed as the only recovery method.
 
 ## Preferred target
 
@@ -25,12 +27,14 @@ No dedicated x86 host has been selected.
 - documented firmware updates
 - at least one stable 1 GbE interface
 - optional second Ethernet interface, but not required initially
+- optional IPMI, iKVM or equivalent out-of-band management
 
 ## Exclusions
 
 - the private main iMac
 - school-owned ThinkPad or BBQ desktop
 - systems without reliable wired networking
+- devices without a practical local or independent recovery console
 - devices requiring unsupported workarounds for basic operation
 - hardware bought only to imitate enterprise scale
 
@@ -44,9 +48,10 @@ No dedicated x86 host has been selected.
 | 32 GB RAM | preferred | more comfortable for multiple guests |
 | SSD | yes | host and guest storage |
 | wired Ethernet | yes | stable lab networking |
-| local display/console | preferred | recovery path |
+| local or independent console | yes | recovery during network and upgrade failures |
 | RAM upgradeable | preferred | extends useful life |
 | second NIC | optional | later routing or separation experiments |
+| out-of-band management | optional | useful but not required when physical console access is reliable |
 | low idle power | preferred | suitable for a home lab |
 
 ## Purchase principle
